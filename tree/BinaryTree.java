@@ -5,6 +5,7 @@ public class BinaryTree {
 	BinaryTree leftChild;		//左孩子
 	BinaryTree rightChild;		//右孩子
 	
+	
 	public BinaryTree() {
 		
 	}

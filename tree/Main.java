@@ -3,7 +3,10 @@ package tree;
 
 
 public class Main {
+	static char[] datas = new char[5];
+	
 	public static void main(String args[]){
+		
 		
 		BinaryTree bt = new BinaryTree();
 		BinaryTree bt2  = new BinaryTree();
@@ -27,6 +30,8 @@ public class Main {
 		bt4.rightChild = bt5;
 		bt5.leftChild = null;
 		bt5.rightChild = null;
+		
+		
 		
 		TreeOperation t = new TreeOperation();
 		t.preOrderRecursion(bt);

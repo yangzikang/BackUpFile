@@ -1,0 +1,30 @@
+create database db2;
+
+use db2;
+
+create table AdminTable(
+	name varchar(20),
+	password varchar(20)
+)
+
+insert into AdminTable values ('Tom','123456');
+insert into AdminTable values ('Rose','654321');
+
+select * from AdminTable; 
+
+
+create table StudentTable(
+	s_num  varchar(20),
+	s_name varchar(20),
+	score  int
+)
+
+select * from StudentTable; 
+
+create table student(
+	s_id varchar(20),
+	s_nam varchar(20),
+	s_age varchar(20)
+)
+
+select * from student; 
